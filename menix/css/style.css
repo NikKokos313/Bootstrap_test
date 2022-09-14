@@ -1,0 +1,42 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: rgb(122, 116, 116);
+}
+
+.carousel-item img {
+    height: 650px;
+    object-fit: cover;
+} 
+
+.content {
+    position: absolute;
+    max-width: 900px;
+    left: 15%;
+    bottom: 20%;
+    z-index: 2;
+    color: #fff;
+} 
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+} 
+
+.link-secondary {
+    text-decoration: none;
+}
+
+.link-secondary:hover {
+    color: #000;
+    font-weight: 500;
+}
